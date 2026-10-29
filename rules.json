@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://www.linkedin.com/jobs/" }
+    },
+    "condition": {
+      "regexFilter": "^https://www\\.linkedin\\.com/feed/?(\\?.*)?(#.*)?$",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
